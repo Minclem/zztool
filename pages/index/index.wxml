@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page-view">
+    <view class="list">
+      <view
+        class="list-item"
+        wx:for="{{sleepList}}"
+        wx:key="index"
+        bindtap='previewImage'
+        data-id="{{index}}"
+      >
+        <image src="{{item}}" mode='aspectFill'></image>
+      </view>
+    </view>
+  </view>
+</view>

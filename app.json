@@ -1,0 +1,32 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/preview/index",
+        "pages/more/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#000",
+        "navigationBarTitleText": "纸质工具箱",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#000000"
+    },
+    "tabBar": {
+        "custom": false,
+        "color": "#fff",
+        "selectedColor": "#ff3355",
+        "backgroundColor": "#000",
+        "position": "top",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "助眠盒子"
+            },
+            {
+                "pagePath": "pages/more/index",
+                "text": "敬请期待..."
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}

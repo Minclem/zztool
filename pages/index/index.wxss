@@ -1,0 +1,27 @@
+/**index.wxss**/
+.list {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    padding: 15rpx 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #000;
+}
+
+.list-item {
+    /* width: 345rpx; */
+    width: 700rpx;
+    height: 400rpx;
+    /* padding: 4rpx; */
+    /* border: 1px solid #ccc; */
+    padding: 15rpx;
+    margin-bottom: 15rpx;
+    border: 1rpx solid #d1d1d1;
+}
+
+.list-item image {
+    display: block;
+    width: 100%;
+    height: 100%;
+}

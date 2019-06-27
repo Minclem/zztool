@@ -1,0 +1,9 @@
+/* pages/more/index.wxss */
+.more-page {
+  width: 100vw;
+  height: 100vh;
+  line-height: 80vh;
+  color: #fff;
+  text-align: center;
+  background: #000;
+}
